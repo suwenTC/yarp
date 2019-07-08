@@ -1,0 +1,41 @@
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-07T18:19:08Z" level=info msg="5324780eced8e4b7 became follower at term 0" module=raft node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="newRaft 5324780eced8e4b7 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]" module=raft node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="5324780eced8e4b7 became follower at term 1" module=raft node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="Listening for connections" addr="[::]:4242" module=node node.id=kwlxqxmvlssi6xy93fmrssmp7 proto=tcp 
+time="2019-07-07T18:19:08Z" level=info msg="Listening for local connections" addr="/tmp/node-0/swarm.sock" module=node node.id=kwlxqxmvlssi6xy93fmrssmp7 proto=unix 
+time="2019-07-07T18:19:08Z" level=info msg="5324780eced8e4b7 is starting a new election at term 1" module=raft node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="5324780eced8e4b7 became candidate at term 2" module=raft node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="5324780eced8e4b7 received MsgVoteResp from 5324780eced8e4b7 at term 2" module=raft node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="5324780eced8e4b7 became leader at term 2" module=raft node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="raft.node: 5324780eced8e4b7 elected leader 5324780eced8e4b7 at term 2" module=raft node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="Creating default ingress network" module=node node.id=kwlxqxmvlssi6xy93fmrssmp7 
+time="2019-07-07T18:19:08Z" level=info msg="node is ready" 
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-07T18:48:28Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=jq6d7tk8j5hrisy83psb77cnp node.role=swarm-manager 
+Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
+time="2019-07-07T18:48:28Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-07T19:27:20Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=tkkal8fbznryqiuzl8l89tnxr node.role=swarm-manager 
+Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
+time="2019-07-07T19:27:20Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-07T19:28:32Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=tkkal8fbznryqiuzl8l89tnxr node.role=swarm-manager 
+Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
+time="2019-07-07T19:28:32Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-07T19:29:06Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=6l2ufm9n9z4wi4j2lfpsc3g2v node.role=swarm-manager 
+Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
+time="2019-07-07T19:29:06Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-07T20:29:17Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=yw6p6e4fged2uuovefd6z66q4 node.role=swarm-manager 
+Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
+time="2019-07-07T20:29:17Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-07T20:29:42Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=yw6p6e4fged2uuovefd6z66q4 node.role=swarm-manager 
+Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
+time="2019-07-07T20:29:42Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-07T20:31:25Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=te9ch26oxbivbdbojjs8anpzo node.role=swarm-manager 
+Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
+time="2019-07-07T20:31:25Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
