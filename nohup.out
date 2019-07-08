@@ -39,3 +39,7 @@ Warning: Specifying a valid address with --listen-remote-api may be necessary fo
 time="2019-07-07T20:31:25Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=te9ch26oxbivbdbojjs8anpzo node.role=swarm-manager 
 Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
 time="2019-07-07T20:31:25Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
+Warning: Specifying a valid address with --listen-remote-api may be necessary for other managers to reach this one.
+time="2019-07-08T20:13:02Z" level=info msg="shutting down certificate renewal routine" module="node/tls" node.id=m3yqesellnu3qql07aocyn414 node.role=swarm-manager 
+Error: manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use
+time="2019-07-08T20:13:02Z" level=fatal msg="manager stopped: failed to listen on remote API address: listen tcp 0.0.0.0:4242: bind: address already in use" 
