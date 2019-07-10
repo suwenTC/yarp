@@ -17,7 +17,7 @@ def doit(index):
     global tm
     print "start thread " + str(index)
     
-    os.system("export SWARM_SOCKET=/tmp/node-0/swarm.sock && swarmctl service create --replicas 2 --name task-" + str(index) + " --env MEMORY=100 --env file=" + tm + " --env service_id=service" + str(index) + " --image myidwei/test:0.02")
+    os.system("export SWARM_SOCKET=/tmp/node-0/swarm.sock && /opt/go/src/github.com/docker/swarmkit/bin/swarmctl service create --replicas 2 --name task-" + str(index) + " --env MEMORY=100 --env file=" + tm + " --env service_id=service" + str(index) + " --image myidwei/test:0.02")
 for i in range(0, cc):
     #doit(i)
     t = threading.Thread(target=doit,args=(i,))
