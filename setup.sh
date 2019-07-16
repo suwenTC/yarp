@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo mv ~/swarmkit.tar.gz /
 sudo apt -y update
 sudo apt-get -y install \
     apt-transport-https \
