@@ -1,0 +1,14 @@
+/opt/go/src/github.com/docker/swarmkit/bin/swarmctl service create \
+     --name node-exporter \
+     --image prom/node-exporter:v0.16.0 \
+     --bind /proc:/host/proc \
+     --bind /sys:/host/sys\
+     --bind /:/rootfs \
+     --mode global \
+     --restart-condition failure \
+     --cpu-limit 0.1 \
+     --memory-limit 64m \
+     --update-parallelism 1 \
+     --update-delay 5s \
+     --update-order start-first \
+     --ports node-exporter:9100:9100

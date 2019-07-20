@@ -1,0 +1,13 @@
+/opt/go/src/github.com/docker/swarmkit/bin/swarmctl service create \
+     --name prometheus \
+     --image prom/prometheus:v2.3.1 \
+     --bind /yarp/prometheus.yml:/etc/prometheus/prometheus.yml \
+     --bind /prometheus-data:/prometheus \
+     --mode global \
+     --restart-condition failure \
+     --cpu-limit 0.2 \
+     --memory-limit 512m \
+     --update-parallelism 1 \
+     --update-delay 5s \
+     --update-order start-first \
+     --ports prometheus:9090:9090
