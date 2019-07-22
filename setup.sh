@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo mkdir /prometheus-data
+sudo mkdir /grafana-data
 sudo mv ~/swarmkit.tar.gz /
 sudo apt -y update
 sudo apt-get -y install \
