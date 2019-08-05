@@ -1,0 +1,8 @@
+FROM mysql:latest
+USER root
+
+RUN apt-get update
+RUN chown -R mysql:mysql /var/lib/mysql
+COPY all-databases.sql /all-databases.sql
+
+RUN mysql -uroot -p1234 -e "SHOW DATABASES;"
