@@ -9,4 +9,4 @@
      --update-parallelism 1 \
      --update-delay 5s \
      --update-order start-first \
-     --ports grafana:3000:3000
+     --ports grafana:3000:3999
