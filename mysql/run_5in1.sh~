@@ -1,0 +1,12 @@
+#!/bin/bash
+
+start=$(date +%s)
+bash /root/run_queries.sh &
+bash /root/run_queries.sh &
+bash /root/run_queries.sh &
+bash /root/run_queries.sh &
+bash /root/run_queries.sh
+end=$(date +%s)
+time_cost=$(( end - start ))
+
+echo 
