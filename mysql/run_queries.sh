@@ -23,6 +23,6 @@ while [ $i -le 100 ]
 done
 
 end=$(date +%s)
-touch "time_$1.txt"
+touch "/root/time_cost/time_$1.txt"
 time_cost=$(( end - start ))
-echo $time_cost > "time_$1.txt"
+echo $time_cost > "/root/time_cost/time_$1.txt"
