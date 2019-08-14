@@ -1,7 +1,7 @@
 #!/bin/bash
 
 start=$(date +%s)
-start_date=date
+start_date=$(date)
 i=1
 while [ $i -le 100 ]
       do
@@ -23,7 +23,7 @@ while [ $i -le 100 ]
 done
 
 end=$(date +%s)
-end_date=date
+end_date=$(date)
 touch "/root/time_cost/time_$1.txt"
 time_cost=$(( end - start ))
 echo "$start_date, $end_date, $time_cost" > "/root/time_cost/time_$1.txt"
