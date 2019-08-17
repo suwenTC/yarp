@@ -1,1 +1,1 @@
-mysql -u root -p1234 -D classicmodels -e "$1"
+mysql -u root -p1234 -D IMDB -e "$1"
